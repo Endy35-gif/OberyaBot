@@ -13,10 +13,10 @@ module.exports = {
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
-    updateZipUrl: 'https://github.com/Endy14-sudo/Ender-bot/archive/refs/heads/main.zip', // URL to latest code zip for .update command
+    updateZipUrl: 'https://github.com/Endy35-gif/OberyaBot/archive/refs/heads/main.zip', // URL to latest code zip for .update command
 
     // Sticker Configuration
-    packname: 'Knight Bot Mini',
+    packname: 'ZeynpBot',
 
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
@@ -81,7 +81,7 @@ module.exports = {
 
     // Social Links (optional)
     social: {
-      github: 'https://github.com/Endy14-sudo/Ender-bot',
+      github: 'https://github.com/Endy35-gif/OberyaBot',
       instagram: '',
       youtube: ''
     }
