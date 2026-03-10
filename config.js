@@ -4,20 +4,20 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerNumber: ['212656245701', '85253382438', '212693877842', '5511967898841', '393926427789', '212775270361',], // Add your number without + or spaces (e.g., 919876543210)
     ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
-    
+
     // Bot Configuration
-    botName: 'Knight Bot Mini',
-    prefix: '.',
+    botName: 'Zeynobot',
+    prefix: '.?!;:*,(&€#@£¥√π',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
-    updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
-    
+    updateZipUrl: 'https://github.com/Endy14-sudo/Ender-bot/archive/refs/heads/main.zip', // URL to latest code zip for .update command
+
     // Sticker Configuration
     packname: 'Knight Bot Mini',
-    
+
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
     autoRead: false,
@@ -27,7 +27,7 @@ module.exports = {
     autoReact: false,
     autoReactMode: 'bot', // set bot or all via cmd
     autoDownload: false,
-    
+
     // Group Settings Defaults
     defaultGroupSettings: {
       antilink: false,
@@ -51,7 +51,7 @@ module.exports = {
       chatbot: false,
       autosticker: false // Auto-convert images/videos to stickers
     },
-    
+
     // API Keys (add your own)
     apiKeys: {
       // Add API keys here if needed
@@ -59,7 +59,7 @@ module.exports = {
       deepai: '',
       remove_bg: ''
     },
-    
+
     // Message Configuration
     messages: {
       wait: '⏳ Please wait...',
@@ -72,18 +72,17 @@ module.exports = {
       botAdminNeeded: '🤖 Bot needs to be admin to execute this command!',
       invalidCommand: '❓ Invalid command! Type .menu for help'
     },
-    
+
     // Timezone
     timezone: 'Asia/Kolkata',
-    
+
     // Limits
     maxWarnings: 3,
-    
+
     // Social Links (optional)
     social: {
-      github: 'https://github.com/mruniquehacker',
-      instagram: 'https://instagram.com/yourusername',
-      youtube: 'http://youtube.com/@mr_unique_hacker'
+      github: 'https://github.com/Endy14-sudo/Ender-bot',
+      instagram: '',
+      youtube: ''
     }
 };
-  
